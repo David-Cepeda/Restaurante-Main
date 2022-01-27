@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/Fondo-comida-main.jpg);
+    background-size: cover;
+}
+.nav-bar{
+    display: flex;
+}
+.logo{
+    width: 55%;
+    height: 100px;
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+    color: blanchedalmond;
+
+}
+.menu-bar{
+    width: 35%;
+    height: 100px;
+}
+.menu-bar ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 5px;
+}
+.menu-bar li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #9b7f7f;
+}
+
+.intro{
+    width: 55%;
+    color: white;
+    height: 300px;
+    padding-top: 50px;
+    margin-left: 107px;
+}
+
+.intro h1{
+    font-size: 3.8rem;
+}
+.intro p{
+    margin: 20px;
+    font-size: large;
+    font-weight: 500;
+}
+
+button{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 11px 20px;
+    color: #4e4e4e;
+    border: none;
+}
+button:hover{
+    background:linear-gradient(25deg, white, #4E2C2C);
+    color: white;
+}
